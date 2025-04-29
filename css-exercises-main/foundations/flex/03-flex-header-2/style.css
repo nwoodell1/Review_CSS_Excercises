@@ -2,11 +2,6 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-*{
-  border: 5px yellow;
-
-}
-
 body {
   margin: 0;
   background: #eee;
@@ -27,6 +22,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  align-self: center;
 }
 
 .logo {
@@ -34,6 +30,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  align-self: center;
+  margin: 10px;
 }
 
 button {
@@ -42,6 +40,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 5px;
 }
 
 a {
@@ -53,9 +52,20 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  padding: 5px;
 }
 
 .alignright{
   display: flex;
   flex-direction: row;
+  padding: 10px;
+  }
+
+.alignleft{
+  display: flex;
+  padding: 5px;
+}
+
+li{
+  padding: 5px;
 }
